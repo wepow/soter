@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/wepow/mongo_queue.git
-  revision: c9726352c4f4a11ea4e70256e004807f4d07d66f
+  revision: d3b4dbe4bfdd825d6795e1fbb6685ef7c6160099
   branch: mongo-2.x
   specs:
     mongo_queue (0.2.4)
@@ -16,7 +16,7 @@ GEM
   specs:
     bson (4.5.0)
     diff-lcs (1.2.5)
-    mongo (2.10.2)
+    mongo (2.10.5)
       bson (>= 4.4.2, < 5.0.0)
     rake (12.0.0)
     rspec (3.5.0)
@@ -43,4 +43,4 @@ DEPENDENCIES
   soter!
 
 BUNDLED WITH
-   1.14.6
+   1.17.3
