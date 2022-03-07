@@ -65,8 +65,8 @@ module Soter
         touch_worker_file
         start_time = Time.now
         log "Starting work on job #{job['_id']}"
-        log "Job info =>"
-
+        log "Job info => #{job} : #{job.class}"
+        
         job.each {
           |key, value| log  "{#{key} : #{value}}" }
 
