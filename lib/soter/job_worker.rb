@@ -45,7 +45,6 @@ module Soter
       log "Spawning"
 
       while true
-        Soter.reset_database_connections
         unless job = @queue.lock_next(worker_id)
           @queue_misses += 1
 
